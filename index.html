@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvass Tutorial</title>
+    <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+    <section class="container">
+        <div id="toolbar">
+            <h1>Draw.</h1>
+            <label for="stroke">Stroke</label>
+            <input type="color" name="stroke" id="stroke" />
+            <label for="line width">Line Width</label>
+            <input type="number" name="line-width" id="line-width" value="5" />
+            <button id="clear">Clear</button>
+        </div>
+        <div>
+            <canvas id="drawing-board"></canvas>
+        </div>
+    </section>
+    <script src="/main.js"></script>
+</body>
+</html>
